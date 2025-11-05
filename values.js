@@ -10,5 +10,4 @@ const values = Object.values(computer);
 console.log(values);
 
 
-
 // console.log();
