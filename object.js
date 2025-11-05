@@ -11,13 +11,13 @@ const bottleDrinks = 'water';
 
 // object
 // non-primitive
-const bottle = {
-    brand: 'apple',
-    price: 45,
-    color: 'white',
-    isClean: false
+// const bottle = {
+//     brand: 'apple',
+//     price: 45,
+//     color: 'white',
+//     isClean: false
 
-}
+// }
 
 // non-primitive
 const subject = {
