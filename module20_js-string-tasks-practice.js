@@ -52,6 +52,107 @@
 
 // task 5 : Capitalize Every first Letter of each word in a String
 
-let sentence = 'i am a student. i am a teacher. you are a faithful';
-sentence = sentence.split(' ');
-console.log(sentence);
+
+// let sentence = 'i am a student. i am a teacher. you are a faithful';
+
+// // 1. স্ট্রিংকে শব্দে ভাগ করা
+// let words = sentence.split(' ');
+
+// // 2. প্রতিটি শব্দের প্রথম অক্ষর Capitalize করা
+// for (let i = 0; i < words.length; i++) {
+//     let word = words[i];
+//     words[i] = word.charAt(0).toUpperCase() + word.slice(1);
+// }
+
+// // 3. সব শব্দকে আবার একত্রিত করা
+// let capitalizedSentence = words.join(' ');
+
+// // 4. ফলাফল দেখানো
+// console.log(capitalizedSentence);
+
+
+/**
+ * js-object-tasks
+*/
+
+// task 1 : Access the golden rod color value in output.
+
+// const colors = {
+//     red: "#ff0000",
+//     green: "#00ff00",
+//     blue: "#0000ff",
+//     "golden rod": '#daa520'
+// };
+
+// const result = colors["golden rod"];
+// console.log(result);
+
+
+// task 2 : For this object below add a property named passenger capacity with value 5
+
+// const car = {
+//     make: "Toyota",
+//     model: "Corolla",
+//     year: 2020
+// };
+
+// car["passenger capacity"] = 5;
+
+// console.log(car);
+
+
+// task 3 : Display the physics marks as output.
+// const student = {
+//     name: "Hamim Sakep",
+//     id: 5421,
+//     physics: {
+//         subject: "HSC Physics",
+//         author: "Shahjahan Tapan",
+//         marks: 30
+//     }
+// };
+
+// const result = student.physics.marks;
+// console.log(result);
+
+
+// task 4 : Count the number of properties.
+
+
+// Object
+// let student = {
+//     name: 'Ariana Grande',
+//     age: 21,
+//     city: 'Gaibandha',
+//     isStudent: true
+// };
+
+// let keyList = Object.keys(student);
+// let result = keyList;
+// console.log(result.length);
+
+
+// task 5 : Loop through an object and print the key-value pairs with their types
+// Output:
+// key: name | type:  string
+// key: age | type:  number
+// key: city | type:  string
+// key: isStudent | type:  boolean
+
+
+let myObject = {
+name: 'John Doe',
+age: 25,
+city: 'Example City',
+isStudent: true
+};
+
+for(let result in myObject){
+    console.log(`key: ${result} | type: ${typeof myObject[result]}`);
+    console.log(myObject[result]);
+}
+
+
+
+
+
