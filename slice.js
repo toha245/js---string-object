@@ -11,7 +11,7 @@ const friends = friendsStr.split(',');
 console.log(friends);
 
 const realFriend = [ 'Rahim', 'kahim', 'dahim', 'lahim', 'fahim', 'sahim' ];
-console.log(realFriend.join(''));
+console.log(realFriend.join(' '));
 // console.log(realFriend.join('|'));
 // console.log(realFriend.join('-'));
 
