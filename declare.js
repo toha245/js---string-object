@@ -7,5 +7,5 @@ console.log(rubber);
 // using new 
 
 
-console.log();
+
 // console.log();

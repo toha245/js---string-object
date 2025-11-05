@@ -16,7 +16,6 @@ const bottleDrinks = 'water';
 //     price: 45,
 //     color: 'white',
 //     isClean: false
-
 // }
 
 // non-primitive
